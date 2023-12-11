@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: rgb(123, 150, 178);
+    
+}
+
+.navegador_carrito{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(120,120,120);
+    color: white;
+    padding: 25px 60px;
+    margin-bottom: 30px;
+
+}
+
+.carrito{
+    position: relative;
+    background-color: #fff;
+    font-size:30px;
+    color: rgb(0,0, 0);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.sumatoria_carrito{
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.productos{
+
+    display: grid;
+    grid-template-columns: repeat(5,220px);
+    gap: 30px;
+    justify-content: center;
+}
+
+.detalles{
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.producto_1, .producto_2, .producto_3, .producto_4, .producto_5{
+
+    border: 2px solid rgb(130,45, 255);
+    border-radius: 4px ;
+}
+
+.producto1_precio{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.producto_1_botones, .producto_2_botones, .producto_3_botones, .producto_4_botones, .producto_5_botones{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 26px;;
+}
